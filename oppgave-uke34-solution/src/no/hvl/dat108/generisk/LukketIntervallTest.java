@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-public class GeneriskIntervallTest {
+public class LukketIntervallTest {
 	
 	Intervall<Integer> treTilFem = new LukketIntervall<>(3,5);
 	Intervall<Integer> fireTilToBaklengs = new LukketIntervall<>(4,2);
