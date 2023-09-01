@@ -4,6 +4,7 @@ import static no.hvl.dat108.f04.People.people;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Function;
 
 /*
@@ -17,11 +18,11 @@ import java.util.function.Function;
  */
 public class Eksempel1 {
 	
-	public static List<String> tilListeAvString(List<Person> liste/*, ???*/) {
+	public static List<String> tilListeAvString(List<Person> liste, Function<Person, String> fn) {
 		
 		List<String> resultat = new ArrayList<>();
 		for (Person p : liste) {
-			//resultat.add(???);
+			resultat.add(fn.apply(p));
 		}
 		return resultat;
 	}
@@ -29,7 +30,9 @@ public class Eksempel1 {
 	public static void main(String[] args) {
 		
 		//En liste av personer skal gjøres om til en liste av fornavn (Stringer)
-		List<String> fornavnene = tilListeAvString(people/*, ???*/);
-		System.out.println(fornavnene);		
+		List<String> fornavnene = tilListeAvString(people, Person::getFirstName);
+		//List<String> fornavnene = tilListeAvString(people, p -> p.getFirstName());
+		System.out.println(fornavnene);
 	}
 }
+

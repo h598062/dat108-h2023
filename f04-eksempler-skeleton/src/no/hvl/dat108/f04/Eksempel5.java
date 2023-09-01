@@ -26,7 +26,12 @@ public class Eksempel5 {
 //		System.out.println(etternavnene);
 		
 		//Med streams:
-		//...
+		List<String> etternavn = people.stream()
+		                          .filter(p -> p.getAge() > 50)
+		                          .map(Person::getLastName)
+		                          .toList();
+
+		System.out.println(etternavn);
 	}
 }
 
