@@ -5,6 +5,7 @@ package no.hvl.dat108.f03a.fikse;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class Main {
@@ -65,7 +66,11 @@ public class Main {
 		
 		// 6: Skriv ut alder til alle over 50 år.
 		//    	Lag en metode doConditionally(...)
-		
+		doConditionally(people, p -> p.getAge() > 50, p -> System.out.println(p.getAge()));
 	}
-	
+
+	private static void doConditionally(List<Person> people, Predicate<Person> pred, Consumer<Person> fn) {
+
+	}
+
 }

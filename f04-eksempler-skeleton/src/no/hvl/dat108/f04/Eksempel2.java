@@ -15,7 +15,8 @@ public class Eksempel2 {
 	
 	/** En variant av sorter som bruker a.compareTo(b) */
 	private static <T extends Comparable<T>> void sorter(List<T> liste) {
-		sorter(liste, (a,b) -> a.compareTo(b)); //TODO -> metodereferanse
+		//sorter(liste, (a,b) -> a.compareTo(b));
+		sorter(liste, Comparable::compareTo);
 	}
 
 	/** En variant av sorter som bruker s.sammenlign(a,b) */
