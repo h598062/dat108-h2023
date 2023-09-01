@@ -1,0 +1,16 @@
+f03.fikse: 
+	doConditionally(). Predicate. Consumer.
+
+f04:
+	--- Lambda / Metodereferanse
+	Eksempel1 - Oppgave. List<Person> ---> List<String>. Lage og bruke en metode som gjør dette. Function. (Dickens ...)
+	Eksempel2 - Sammen. Lambda ---> Metodereferanse i tidligere eksempler (Boble | Eks1). Finn / legg til mer her!!! 
+	Eksempel3 - Sammen. Comparator.comparing(). Hvordan lage vår egen! Hårete eksempel, men greit for de flinkeste.
+
+	--- Streams
+	f03.doConditionally() ---> Streams (filter().forEach() m/metodereferanse.
+	Eksempel4 - Vise. Imperativ ---> Funksjonell m/streams i tidligere eksempel. (Dickens ...) filter, forEach
+	Eksempel5 - Vise. Imperativ ---> Funksjonell m/streams i tidligere eksempel. (Dickens ...) map, toList
+	Eksempel6 - Vise. Kilder til streams. En liste av ulike eksempler på.
+	Eksempel7 - Sammen. Noen små streams-oppgaver / -eksempler.
+
