@@ -13,15 +13,16 @@ public class Eks4Optional2 {
 		//Stream-APIet tar automatisk hensyn til at input-stream kan være tom
 		//slik at det ikke er noen minste. Pakker inn i Optional.
 		int minste = IntStream.rangeClosed(1, 100)
-				.max().orElse(-1);
+		                      .min()
+		                      .orElse(-1);
 		System.out.println(minste);
 		
 		//Finn en i people-listen som er 30 eller yngre
 		//Stream-APIet tar automatisk hensyn til at input-stream kan være tom
 		//slik at det ikke er noen minste. Pakker inn i Optional.
 		Optional<Person> optP = people.stream()
-				.filter(p -> p.getAge() <= 50)
-				.findAny();
+		                              .filter(p -> p.getAge() <= 30)
+		                              .findAny();
 		System.out.println(optP);
 		optP.ifPresent(System.out::println);
 		
