@@ -1,10 +1,9 @@
 package no.hvl.dat108.f04;
-
 import static no.hvl.dat108.f04.People.people;
 
 /*
  * Eksempel4
- *
+ * 
  * Vårt første stream()-eksempel.
  * Skrive ut alle med fornavn som begynner på "C".
  */
