@@ -5,11 +5,13 @@ import java.util.List;
 import java.util.Set;
 
 public class Eks6utviklere {
-
+	
 	public static void main(String[] args) throws Exception {
-
-		List<Utvikler> utviklere = Arrays.asList(new Utvikler("Arne", Set.of("Java", "C")),
-				new Utvikler("Pere", Set.of("Javascript", "C++")), new Utvikler("Knut", Set.of("Java")),
+		
+		List<Utvikler> utviklere = Arrays.asList(
+				new Utvikler("Arne", Set.of("Java", "C")),
+				new Utvikler("Pere", Set.of("Javascript", "C++")),
+				new Utvikler("Knut", Set.of("Java")),
 				new Utvikler("Anne", Set.of("Haskell", "C#", "Python")),
 				new Utvikler("Emma", Set.of("Clojure", "Ruby", "C")),
 				new Utvikler("Lise", Set.of("Java", "C")));

@@ -1,0 +1,18 @@
+Om eksemplene
+-------------
+
+no.hvl.dat108.f06a
+- 5 måter å opprette en tråd ++
+
+no.hvl.dat108.f06b
+- En tråd sitt navn (gi navn, hente navn, ++)
+
+no.hvl.dat108.f06c
+- sleep, stopp, join, daemon
+
+no.hvl.dat108.f06d
+- Telle opp/Telle ned.
+- synchronized (blokk i delt ressurs, metode i delt ressurs, blokk i tråd)
+
+
+
