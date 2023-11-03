@@ -11,6 +11,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;
 
+/*
+ * Sjekke denne?:
+ * https://medium.com/@AlexanderObregon/working-with-cookies-in-spring-mvc-using-cookievalue-annotation-7979205bb349
+ */
+
 @Controller
 public class HomeController {
 
