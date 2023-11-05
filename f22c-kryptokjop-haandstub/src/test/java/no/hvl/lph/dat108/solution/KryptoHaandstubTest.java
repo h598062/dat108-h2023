@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import no.hvl.lph.dat108.Fiat;
 import no.hvl.lph.dat108.Krypto;
 
-public class KryptokalkulatorTest {
+public class KryptoHaandstubTest {
 	
 	@Test
 	public void sjekkAtUtregningVirker() {

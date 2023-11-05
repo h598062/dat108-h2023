@@ -13,8 +13,7 @@ public class KryptoCalkulator {
 	public double kjope(double antall, Krypto krypto, Fiat fiat) {
 		try {
 			return antall * PrisFinderKucoin.finnPris(
-					fiat.name(), krypto.name())
-					.get(krypto.name()).doubleValue();
+					krypto.name(), fiat.name());
 			
 		} catch (IOException e) {
 			return -1;

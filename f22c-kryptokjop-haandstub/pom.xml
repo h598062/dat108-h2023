@@ -12,7 +12,7 @@
 	</parent>
 
 	<groupId>no.hvl.lph.dat108</groupId>
-	<artifactId>f22c-kryptokjop-haandstub</artifactId>
+	<artifactId>f23a-kryptokjop-stubbing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
