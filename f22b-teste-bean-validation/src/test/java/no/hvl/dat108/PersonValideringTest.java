@@ -54,10 +54,10 @@ public class PersonValideringTest {
 	 */
 	private boolean erGyldigEgenskap(Person person, String egenskap) {
 		
-		return !validator.validate(person).stream()			//Strøm av alle feil (objekter)
-				.map(v -> v.getPropertyPath().toString())	//Strøm av alle egenskaper med feil
-				.collect(Collectors.toSet())				//Samlet opp i et Set av egenskaper med feil
-				.contains(egenskap);						//Om den egenskapen vi lurer på har feil
+		return !validator.validate(person).stream()			//Strøm av alle feil (ConstraintViolations)
+				.map(v -> v.getPropertyPath().toString())	//Strøm av alle "egenskaper" med feil
+				.collect(Collectors.toSet())				//Samlet opp i et Set av "egenskaper" med feil
+				.contains(egenskap);						//Om den "egenskapen" vi lurer på har feil
 	}
 
 }
