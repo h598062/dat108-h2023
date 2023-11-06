@@ -29,7 +29,7 @@ public class KryptoHaandstubTest {
 		 * avrundingsfeil. Kanskje det holder å sjekke at det er 
 		 * korrekt med en feilmargin på 0.0001.
 		 */
-		assertEquals(123456.789, belop, 0.0001d);
+		assertEquals(123456.789, belop, 0.00000001d);
 	}
 	
 	@Test
