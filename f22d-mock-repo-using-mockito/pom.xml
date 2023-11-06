@@ -12,7 +12,7 @@
 	</parent>
 	
 	<groupId>no.hvl.lph.dat108</groupId>
-	<artifactId>f22d-mock-repo-using-mockito</artifactId>
+	<artifactId>f23b-mock-repo-using-mockito</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
 	<properties>

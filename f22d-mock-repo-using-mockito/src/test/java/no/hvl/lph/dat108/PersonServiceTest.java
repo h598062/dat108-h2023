@@ -18,8 +18,8 @@ public class PersonServiceTest {
 	@Mock
 	PersonRepo mockedPersonRepo;
 	
-	//Oppretter en PersonService med standardkonstruktør og
-	//injecter mockedPersonRepo inn i denne (via field-injection)
+	//Oppretter en PersonService (via standardkonstruktør) og
+	//injecter mockedPersonRepo inn i denne (via field-injection).
 	@InjectMocks
 	PersonService personService;
 	
